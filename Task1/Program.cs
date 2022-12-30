@@ -4,11 +4,11 @@
 
 int n = InputInt("Введите положительное число: ");
 int m = 1;
-if (n < 1)
-{
+
+if (n < m)
     Console.WriteLine("Ввели не положительное число");
-}
-Console.WriteLine(NaturalNumber(n, m));
+else
+    Console.WriteLine(NaturalNumber(n, m));
 
 int NaturalNumber(int n, int m)
 {
